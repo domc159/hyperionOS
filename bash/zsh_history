@@ -1,0 +1,1568 @@
+: 1718802660:0;cd .config
+: 1718802661:0;ls
+: 1718802672:0;cd waybar
+: 1718802673:0;ls
+: 1718802690:0;cd configs
+: 1718802691:0;ls
+: 1718802736:0;..
+: 1718802737:0;ls
+: 1718802739:0;..
+: 1718802741:0;l
+: 1718802747:0;cd hypr
+: 1718802749:0;ls
+: 1718802778:0;nano hypr
+: 1718802784:0;nano hyprland.conf
+: 1718802808:0;cd configs
+: 1718802809:0;ls
+: 1718802812:0;nano Keybinds.conf
+: 1718804688:0;sudo pacman -S firefox
+: 1718804772:0;nmcli device wifi connnect Fritz\!Box\ 5530 password stpumaribor
+: 1718804780:0;nmcli device wifi connect Fritz\!Box\ 5530 password stpumaribor
+: 1718804908:0;sudo pacman -S firefox
+: 1718806321:0;ls
+: 1718806328:0;cd github
+: 1718806351:0;git clone https://github.com/domc159/Hyprland-custom.git
+: 1718807007:0;paru -S fastfetch
+: 1718807026:0;ls
+: 1718807034:0;cd Hyprland-custom
+: 1718807036:0;ls
+: 1718807049:0;cd _config
+: 1718807050:0;ls
+: 1718807075:0;cd fastfetch
+: 1718807078:0;ls
+: 1718807096:0;cp config.jsonc ~/.config/fastfetch
+: 1718807734:0;cd
+: 1718807741:0;nano .zshrc
+: 1718807805:0;..
+: 1718807806:0;ls
+: 1718807812:0;cd kitty
+: 1718807814:0;ls
+: 1718807829:0;cp logo13.png ~/.config/kitty
+: 1718807881:0;cd .config
+: 1718807883:0;cd kitty
+: 1718807884:0;ls
+: 1718807943:0;paru -S starship
+: 1718807962:0;cd .config
+: 1718807963:0;ls
+: 1718807969:0;starship
+: 1718807991:0;starship config
+: 1718808004:0;ls
+: 1718808959:0;paru -S starship
+: 1718809061:0;ls
+: 1718809064:0;..
+: 1718809079:0;ls
+: 1718809102:0;cp starship.toml ~/.config
+: 1718809130:0;..
+: 1718809132:0;nano .zshrc
+: 1718809138:0;ll
+: 1718809143:0;cd _config
+: 1718809148:0;nano .zshrc
+: 1718809152:0;ls
+: 1718809155:0;ll
+: 1718809217:0;nano .zshrc
+: 1718809479:0;paru -S powerstat
+: 1718809561:0;sudo powerstat -c 0 5 400
+: 1718809570:0;sudo powerstat -c 5 5 400
+: 1718809584:0;sudo powerstat -c 5 5 60
+: 1718809640:0;sudo powerstat  5 5 400
+: 1718809648:0;sudo powerstat  5 400
+: 1718809934:0;pacman -Q
+: 1718810036:0;paru -S intel-undervolt
+: 1718810051:0;sudo nano /etc/intel-undervolt.conf
+: 1718810091:0;sudo intel-undervolt
+: 1718810095:0;sudo intel-undervolt apply
+: 1718810124:0;sudo systemctl enable intel-undervolt
+: 1718810131:0;sudo systemctl start intel-undervolt
+: 1718810139:0;sudo systemctl restart intel-undervolt
+: 1718810170:0;powerstat -g
+: 1718810636:0;sudo nano /etc/intel-undervolt.conf
+: 1718810834:0;sudo intel-undervolt apply
+: 1718810844:0;sudo systemctl restart intel-undervolt
+: 1718810866:0;reboot
+: 1718810937:0;powrerstat -g
+: 1718810944:0;powerstat
+: 1718810975:0;powerstat 0 5 500
+: 1718810980:0;powerstat 0 50 500
+: 1718810989:0;powerstat 5 600
+: 1718811424:0;sudo nano /etc/intel-undervolt.conf
+: 1718811458:0;sudo systemctl restart intel-undervolt
+: 1718811715:0;reboot
+: 1718814738:0;powerstat 5 600
+: 1718815235:0;nano .config/waybar/config
+: 1718815421:0;paru -S power-profiles-daemon
+: 1718815429:0;waybar
+: 1718815539:0;nano .config/waybar/config
+: 1718815578:0;cd .config/waybar/modules
+: 1718815589:0;nano .config/waybar/modules
+: 1718815709:0;cd .config/waybar/
+: 1718815710:0;ls
+: 1718815719:0;cd configs
+: 1718815720:0;ls
+: 1718815728:0;..
+: 1718815796:0;cp modules modules.bak
+: 1718815801:0;nano modules
+: 1718815882:0;waybar
+: 1718817304:0;nano modules
+: 1718817356:0;waybar
+: 1718818185:0;waybar reload
+: 1718818189:0;waybar -h
+: 1718818538:0;nano .config/waybar/modules
+: 1718818551:0;nano .config/waybar/config
+: 1718818761:0;waybar
+: 1718821635:0;nano .config/fastfetch/config
+: 1718821643:0;nano .config/fastfetch/config.jsonc
+: 1718821710:0;nano .config/waybar/modules
+: 1718822089:0;nano .config/waybar/config
+: 1718822096:0;nano .config/waybar/modules
+: 1718822142:0;waybar
+: 1718822305:0;nano .config/waybar/config
+: 1718822425:0;waybar
+: 1718823293:0;reboot
+: 1718823366:0;cd co
+: 1718823373:0;cd .config
+: 1718823375:0;la
+: 1718823386:0;cd wallust
+: 1718823387:0;la
+: 1718823394:0;nano wallust.toml
+: 1718823470:0;cd h
+: 1718823475:0;cd hypr
+: 1718823477:0;ls
+: 1718823480:0;cd ..
+: 1718823483:0;cd hypr
+: 1718823485:0;la
+: 1718823494:0;nano pyprland.toml
+: 1718823524:0;cd wallpaper_effects
+: 1718823524:0;ls
+: 1718823526:0;ll
+: 1718823532:0;..
+: 1718823540:0;nano v2.2.14
+: 1718823563:0;pacman -Q
+: 1718823696:0;paru -S hyprpaper
+: 1718823762:0;ls
+: 1718823773:0;hyprpaper
+: 1718823785:0;hyprpaper -h
+: 1718823795:0;hyprpaper --config
+: 1718823802:0;ls
+: 1718823813:0;nano hyprpaper.conf
+: 1718824208:0;cd Downloads
+: 1718824209:0;ls
+: 1718824238:0;mkdir wallpaper
+: 1718824257:0;mv 254296.png ~/wallpaper
+: 1718824274:0;cd wallpaper
+: 1718824291:0;mv 254296.png wallpaper1.png
+: 1718824298:0;pwd
+: 1718824311:0;cd
+: 1718824317:0;cd .config/hypr
+: 1718824320:0;nano hyprpaper.conf
+: 1718824401:0;hyprpaper --config ~/.config/hypr/hyprpaper.conf
+: 1718824827:0;cd .config/hypr
+: 1718824830:0;..
+: 1718824835:0;cd waybar
+: 1718824836:0;ls
+: 1718824841:0;nano style.css
+: 1718824925:0;waybar
+: 1718825041:0;..
+: 1718825044:0;cd hypr
+: 1718825044:0;ls
+: 1718825053:0;nano hyprland.conf
+: 1718825078:0;cd UserConfigs
+: 1718825079:0;ls
+: 1718825089:0;nano Startup_Apps.conf
+: 1718825126:0;reboot
+: 1718825402:0;cd .config/kitty
+: 1718825403:0;ls
+: 1718825406:0;nano kitty.conf
+: 1718825436:0;cd .config/fastfetch
+: 1718825472:0;nano config.jsonc
+: 1718826486:0;shutdown
+: 1718826509:0;shutdown -c
+: 1718826515:0;shutdown now
+: 1718882162:0;cd .config/hypr
+: 1718882164:0;ls
+: 1718882171:0;cd User
+: 1718882174:0;cd UserScripts
+: 1718882178:0;..
+: 1718882186:0;cd UserConfigs
+: 1718882187:0;ls
+: 1718882192:0;nano UserKeybinds.conf
+: 1718886124:0;cd .config
+: 1718886125:0;ls
+: 1718886127:0;la
+: 1718886142:0;cd systemd
+: 1718886143:0;ls
+: 1718886146:0;cd user
+: 1718886147:0;ls
+: 1718886158:0;..
+: 1718886249:0;pacman -Q
+: 1718886328:0;pacman -Q | grep "notification"
+: 1718886479:0;pacman -Q | grep "dunst"
+: 1718886499:0;cd
+: 1718886509:0;cd .config
+: 1718886514:0;cd waybar
+: 1718886518:0;ls
+: 1718886522:0;nano config
+: 1718886533:0;cd .config
+: 1718886537:0;cd swaync
+: 1718886537:0;ls
+: 1718886543:0;nano config.json
+: 1718886609:0;cd .config/swaync
+: 1718886610:0;ls
+: 1718886794:0;sudo nano /etc/xdg/swaync/configSchema.json 
+: 1718890180:0;cd .config
+: 1718890181:0;ls
+: 1718890729:0;cd wlogout
+: 1718890729:0;ls
+: 1718890735:0;nano layout
+: 1718890783:0;ls
+: 1718890788:0;nano style.css
+: 1718891256:0;pacman -Q
+: 1718891314:0;pacman -Q | grep "log"
+: 1718891326:0;wlogout
+: 1718891348:0;spdlog
+: 1718891358:0;pacman -Q | grep "screen"
+: 1718891364:0;pacman -Q | grep "start"
+: 1718893318:0;cd .config/hypr
+: 1718893339:0;ls
+: 1718893379:0;nano hyprland.conf
+: 1718894305:0;cd .config/hypr
+: 1718894342:0;ls
+: 1718894351:0;cd UserConfigs
+: 1718894351:0;ls
+: 1718894363:0;nano Startup_Apps.conf
+: 1718894782:0;hypridle
+: 1718894804:0;hypridle -h
+: 1718894812:0;hypridle help
+: 1718895014:0;cd /etc/
+: 1718895015:0;ls
+: 1718895016:0;la
+: 1718895111:0;cd wlogout
+: 1718895113:0;ls
+: 1718895119:0;nano layout
+: 1718895139:0;..
+: 1718895154:0;nano services
+: 1718895840:0;cd scripts
+: 1718895841:0;ls
+: 1718895867:0;nano LockScreen.sh
+: 1718895921:0;pidof hyprlock || hyprlock -q
+: 1718896353:0;pidof
+: 1718896357:0;pidof -h
+: 1718896517:0;reboot
+: 1718897006:0;cd .config/hypr
+: 1718897015:0;nano hyprlock.conf
+: 1718897171:0;pidof hyprlock || hyprlock -q
+: 1718897470:0;paru -S gimp
+: 1718897617:0;paru -S nemo
+: 1718898458:0;cd .config
+: 1718898459:0;ls
+: 1718898471:0;mkdir wallpaper
+: 1718898480:0;cd Downloads
+: 1718898480:0;ls
+: 1718898497:0;cp ozadje-runa\ 1.png ~/.config/wallpaper
+: 1718898502:0;cp ozadje-runa\ 2.png ~/.config/wallpaper
+: 1718898510:0;cd wallpaper
+: 1718898511:0;ls
+: 1718898604:0;cd .config
+: 1718898605:0;ls
+: 1718898643:0;cd hypr/wallpaper_effects
+: 1718898646:0;ll
+: 1718898667:0;ls -la
+: 1718898677:0;nano .wallpaper_modified
+: 1718898693:0;cd
+: 1718898701:0;cd .config/wallpaper
+: 1718898707:0;ls
+: 1718898757:0;pidof hyprlock || hyprlock -q\
+
+: 1718899755:0;cp ozadje-runa3.png ~/.config/wallpaper
+: 1718899880:0;pidof hyprlock || hyprlock -q
+: 1718901798:0;pidof hyprlock || hyprlock -q\
+
+: 1718902114:0;ls
+: 1718902128:0;nano initial-boot.sh
+: 1718902629:0;nano hypridle.conf
+: 1718902889:0;cd scripts
+: 1718902890:0;ls
+: 1718903152:0;nano RofiSearch.sh
+: 1718903364:0;cd /etc
+: 1718903365:0;ls
+: 1718903379:0;cd gtk-3.0
+: 1718903380:0;ls
+: 1718903385:0;nano im-multipress.conf
+: 1718903494:0;cd
+: 1718903500:0;cd .config/hypr
+: 1718903501:0;ls
+: 1718903508:0;nano hyprland.conf
+: 1718903619:0;nano configs
+: 1718903624:0;nano config.json
+: 1718903639:0;..
+: 1718903650:0;cd hyprland
+: 1718903653:0;ll
+: 1718903670:0;cd hypr
+: 1718904583:0;..
+: 1718904587:0;cd Kvantum
+: 1718904588:0;ls
+: 1718904594:0;nano kvantum.kvconfig
+: 1718904618:0;reboot
+: 1718905119:0;cd .config/hypr
+: 1718905120:0;ls
+: 1718905127:0;pwd
+: 1718905135:0;cd /home/spacepirate/.config/hypr
+: 1718905143:0;ls
+: 1718905150:0;cd UserConfigs
+: 1718905152:0;ls
+: 1718905169:0;nano ENVariables.conf
+: 1718905270:0;nano configs
+: 1718905281:0;nano hyprland.conf
+: 1718905312:0;..
+: 1718905319:0;ls
+: 1718905337:0;cd configs
+: 1718905342:0;nano Settings.conf 
+: 1718905389:0;..
+: 1718905395:0;cd UserConfigs
+: 1718905396:0;ls
+: 1718905435:0;nano Startup_Apps.conf
+: 1718905465:0;cd scripts
+: 1718905466:0;ls
+: 1718905472:0;nano LockScreen.sh
+: 1718905552:0;nano Startup_Apps.conf
+: 1718905569:0;nano Po
+: 1718905578:0;nano PortalHyprland.sh
+: 1718905999:0;ll
+: 1718906014:0;nano WorkspaceRules.conf
+: 1718907073:0;nano Laptops.conf
+: 1718907205:0;nano WindowRules.conf
+: 1718907678:0;nano ENVariables.conf
+: 1718907869:0;..
+: 1718907870:0;ll
+: 1718907879:0;nano hyprland.conf
+: 1718910927:0;roofy
+: 1718910937:0;rofi
+: 1718911095:0;rofi -show drun
+: 1718911100:0;rofi
+: 1718911106:0;rofi -show run
+: 1718911116:0;rofi
+: 1718911123:0;rofi -show filebrowser
+: 1718911149:0;cd .config/hypr
+: 1718911150:0;ls
+: 1718911157:0;cd UserConfigs
+: 1718911158:0;ls
+: 1718911168:0;nano UserKeybinds.conf
+: 1718911541:0;paru -S woofi
+: 1718911557:0;paru -S wofi
+: 1718911644:0;wofi
+: 1718911647:0;wofi --show
+: 1718911657:0;wofi -h
+: 1718911696:0;wofi --dmenu
+: 1718911710:0;wofi --prompt
+: 1718911739:0;wofi --allow-images
+: 1718911749:0;wofi --allow-images --dmenu
+: 1718911949:0;cd .config/
+: 1718911950:0;ls
+: 1718911966:0;sudo wofi --dmenu
+: 1718911980:0;wofi --dmenu
+: 1718911985:0;sudo wofi --dmenu
+: 1718912000:0;gtk
+: 1718912453:0;cd .config
+: 1718912456:0;mkdir wofi
+: 1718912459:0;cd wofi
+: 1718912502:0;cd
+: 1718912504:0;cd github
+: 1718912512:0;git clone https://github.com/domc159/Hyprland-custom.git
+: 1718912517:0;ls
+: 1718912520:0;cd Hyprland-custom
+: 1718912524:0;cd _config
+: 1718912531:0;cd w
+: 1718912536:0;cd wofi
+: 1718912543:0;..
+: 1718912563:0;cp wofi/* ~/.config/wofi
+: 1718912682:0;wofi --drun
+: 1718912685:0;wofi -drun
+: 1718913012:0;wofi -c ~/.config/wofi/config.css
+: 1718913026:0;wofi --conf=~/.config/wofi/config.css
+: 1718913036:0;wofi --style=~/.config/wofi/config.css
+: 1718913046:0;wofi --dmenu --style=~/.config/wofi/config.css
+: 1718975749:0;paru -Rns roofi
+: 1718975758:0;paru -Rns rofi
+: 1718975778:0;paru -Rns Rofi
+: 1718975850:0;paru -S wofi
+: 1718975980:0;paru -Rns wofi
+: 1718976635:0;paru -S wofi
+: 1718976750:0;paru -Rns wofi
+: 1718976788:0;paru -S mounch
+: 1718976816:0;mounch
+: 1718976854:0;cd .config
+: 1718976855:0;ls
+: 1718976863:0;cd wofi
+: 1718976864:0;ls
+: 1718976917:0;paru -Rns mounch
+: 1718976925:0;..
+: 1718976939:0;rm -r wofi
+: 1718976944:0;ls
+: 1718976996:0;paru -S raffi-bin
+: 1718977025:0;raffi
+: 1718977036:0;ls
+: 1718977048:0;cd rofi
+: 1718977049:0;ls
+: 1718977083:0;raffi --help
+: 1718977089:0;raffi -c
+: 1718977165:0;firefox
+: 1718977371:0;cd github
+: 1718977382:0;git clone https://github.com/chmouel/raffi.git
+: 1718977476:0;cd 
+: 1718978361:0;paru -Rns raffi-bin
+: 1718978379:0;paru raffi-bin
+: 1718979022:0;paru -Rns wofi
+: 1718979039:0;paru -S wofi-git
+: 1718980026:0;..
+: 1718980034:0;rofi -show filebrowser
+: 1718980039:0;cd hypr
+: 1718980055:0;ls
+: 1718980064:0;cd UserConfigs
+: 1718980065:0;ls
+: 1718980067:0;nano 
+: 1718980073:0;nano UserKeybinds.conf
+: 1718980163:0;rofi
+: 1718980744:0;sudo pacman -Syu
+: 1718983043:0;...
+: 1718983046:0;cd rofi
+: 1718983047:0;ls
+: 1718983203:0;cd github
+: 1718983237:0;git clone https://github.com/lr-tech/rofi-themes-collection.git
+: 1718983246:0;cd rofi-themes-collection
+: 1718983246:0;ls
+: 1718983250:0;cd themes
+: 1718983251:0;ls
+: 1718983588:0;cd .config/rofi
+: 1718983589:0;ls
+: 1718983599:0;ll
+: 1718983675:0;cp squared-everforest.rasi ~/.config/rofi
+: 1718983679:0;ls
+: 1718983724:0;mv config.rasi config.rasi.bak
+: 1718983740:0;mv squared-everforest.rasi config.rasi
+: 1718983856:0;nano config.rasi
+: 1718983975:0;cp launchpad.rasi ~/.config/rofi
+: 1718983987:0;rm config.rasi
+: 1718984004:0;mv launchpad.rasi config.rasi
+: 1718984064:0;cp simple-tokyonight.rasi ~/.config/rofi
+: 1718984067:0;rm config.rasi
+: 1718984088:0;mv simple-tokyonight.rasi config.rasi
+: 1718984359:0;ll
+: 1718984372:0;nano config.rasi.bak
+: 1718984399:0;nano master-config.rasi
+: 1718984499:0;rm config.rasi
+: 1718984510:0;cp config.rasi.bak config.rasi
+: 1718984526:0;nano master-config.rasi
+: 1718984708:0;cd
+: 1718984710:0;cd .config
+: 1718984752:0;cd hypr
+: 1718984755:0;cd UserConfigs
+: 1718984756:0;ls
+: 1718984765:0;nano UserKeybinds.conf
+: 1718985452:0;nano master-config.rasi
+: 1718985464:0;cd wallust
+: 1718985465:0;ls
+: 1718985471:0;nano colors-rofi.rasi
+: 1718985493:0;....
+: 1718985499:0;cd .config/fastfetch
+: 1718985500:0;ls
+: 1718985506:0;nano config.jsonc
+: 1718986628:0;..
+: 1718986637:0;ls
+: 1718986659:0;nano config.rasi
+: 1718986682:0;nano master-config.rasi
+: 1718989712:0;..
+: 1718989713:0;cd hypr
+: 1718989720:0;cd UserConfigs
+: 1718989729:0;nano UserKeybinds.conf
+: 1718990458:0;nano Laptops.conf
+: 1718990557:0;cd
+: 1718990560:0;cd .config
+: 1718990563:0;cd rofi
+: 1718990564:0;ls
+: 1718990567:0;l
+: 1718990614:0;cd .config/rofi
+: 1718990623:0;nano config-search.rasi
+: 1718991359:0;nano config-rofi-Beats.rasi
+: 1718991372:0;nano config-rofi-Beats-menu.rasi
+: 1718991404:0;nano config-waybar-style.rasi
+: 1718991474:0;nano config-compact.rasi
+: 1718991521:0;nano config-emoji.rasi
+: 1718992304:0;..
+: 1718992306:0;cd hypr
+: 1718992311:0;cd UserConfigs
+: 1718992319:0;nano UserKeybinds.conf
+: 1718995972:0;pacman -Q | grep "ags"
+: 1718995979:0;pacman -Q | grep "awesome"
+: 1718995987:0;ags
+: 1718995993:0;ags --help
+: 1718996012:0;...
+: 1718996017:0;cd ags
+: 1718996017:0;ls
+: 1718996025:0;cd modules
+: 1718996026:0;ls
+: 1718996028:0;..
+: 1718996031:0;nano config.js
+: 1718996902:0;..
+: 1718996903:0;cd ags
+: 1718996904:0;ls
+: 1718996906:0;cd user
+: 1718996907:0;ls
+: 1718996911:0;nano style.css
+: 1718998766:0;reboot
+: 1719062415:0;cd .config
+: 1719062416:0;LS
+: 1719062418:0;LL
+: 1719062419:0;ll
+: 1719062427:0;cd btop
+: 1719062427:0;ls
+: 1719062494:0;..
+: 1719062497:0;cd cava
+: 1719062498:0;ll
+: 1719062501:0;nano config
+: 1719062550:0;cava
+: 1719062558:0;cava -h
+: 1719062565:0;cava r
+: 1719062584:0;ll
+: 1719062590:0;cd .config
+: 1719062607:0;ll
+: 1719062827:0;...
+: 1719062829:0;cd .
+: 1719062834:0;cd .config
+: 1719062841:0;cd wallust
+: 1719062842:0;ls
+: 1719062846:0;cd w
+: 1719062850:0;nano wallust.toml
+: 1719063059:0;..
+: 1719064274:0;cd /etc/
+: 1719064275:0;ll
+: 1719064373:0;nano cd X11
+: 1719064379:0;cd X11
+: 1719064380:0;ls
+: 1719065543:0;loginctl
+: 1719066311:0;sudo pacman -S systemd-bootctl
+: 1719066505:0;sudo pacman -S systemd-ui
+: 1719066515:0;systemd-ui
+: 1719067247:0;cd
+: 1719067248:0;ls
+: 1719067249:0;cd .c
+: 1719067252:0;cd .config
+: 1719067253:0;ll
+: 1719067265:0;cd systemd
+: 1719067265:0;ls
+: 1719067268:0;cd user
+: 1719067269:0;ls
+: 1719067276:0;cd default.target.wants
+: 1719067277:0;ls
+: 1719067373:0;cd /etc/systemd
+: 1719067374:0;ls
+: 1719067389:0;nano homed.conf
+: 1719067405:0;nano logind.conf
+: 1719067457:0;systemd-analyze cat-config systemd/logind.conf
+: 1719067522:0;ll
+: 1719067536:0;nano logind.conf
+: 1719067544:0;cd user
+: 1719067545:0;ls
+: 1719067548:0;..
+: 1719067561:0;nano user.conf
+: 1719067795:0;cd system
+: 1719067795:0;ls
+: 1719068028:0;cd systemd-homed.service.d
+: 1719068029:0;ls
+: 1719068033:0;nano override.conf
+: 1719068042:0;..
+: 1719069107:0;la
+: 1719069112:0;ll
+: 1719069114:0;l
+: 1719069116:0;ls
+: 1719069125:0;cd multi-user.target.wants
+: 1719069126:0;l
+: 1719069128:0;ls
+: 1719069137:0;rm -r intel-undervolt.service
+: 1719069141:0;sudo rm -r intel-undervolt.service
+: 1719069153:0;nano remote-fs.target
+: 1719069263:0;..
+: 1719069264:0;ls
+: 1719069277:0;cd sockets.target.wants
+: 1719069278:0;ls
+: 1719069286:0;nano systemd-userdbd.socket
+: 1719069307:0;cd /usr
+: 1719069308:0;ls
+: 1719069313:0;cd share
+: 1719069313:0;ls
+: 1719069318:0;cd systemd
+: 1719069319:0;ls
+: 1719069325:0;cd bootctl
+: 1719069326:0;ls
+: 1719069336:0;nano arch.conf
+: 1719069729:0;nano loader.conf
+: 1719069739:0;nano splash-arch.bmp
+: 1719069931:0;cd
+: 1719070080:0;cd /etc
+: 1719070083:0;cd /
+: 1719070084:0;ll
+: 1719070150:0;cd /boot
+: 1719070151:0;ls
+: 1719070156:0;cd loader
+: 1719070156:0;ls
+: 1719070162:0;nano loader.conf
+: 1719070178:0;cd entries
+: 1719070179:0;ls
+: 1719070184:0;nano 2024-06-19_00-03-26_linux
+: 1719070772:0;nano 2024-06-19_00-03-26_linux.conf
+: 1719070984:0;..
+: 1719070986:0;ll
+: 1719070995:0;..
+: 1719070996:0;ll
+: 1719071000:0;cd EFI
+: 1719071001:0;ll
+: 1719071006:0;cd systemd
+: 1719071007:0;ls
+: 1719071012:0;..
+: 1719071017:0;cd BOOT
+: 1719071018:0;ls
+: 1719071020:0;..
+: 1719071023:0;cd Linux
+: 1719071024:0;ls
+: 1719071028:0;ll
+: 1719071029:0;..
+: 1719071030:0;ll
+: 1719071199:0;..
+: 1719071201:0;ll
+: 1719071274:0;cd loader
+: 1719071275:0;ll
+: 1719071279:0;nano loader.conf
+: 1719071508:0;paru -S grub-customizer
+: 1719076227:0;cd Documents
+: 1719076235:0;pacman -Q
+: 1719076242:0;nano packets
+: 1719076834:0;sudo cd -r /etc ~/Documents
+: 1719076845:0;sudo cp -r /etc ~/Documents
+: 1719076862:0;cd Documents
+: 1719076878:0;sudo chmod 777 etc
+: 1719079009:0;reboot
+: 1719079094:0;sudo pacman -S efibootmgr
+: 1719079180:0;sudo grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=GRUB
+: 1719079220:0;sudo grub-mkconfig -o /boot/grub/grub.cfg
+: 1719079322:0;sudo nano /boot/loader/entries/grub.conf
+: 1719079367:0;cd /
+: 1719079369:0;ll
+: 1719079385:0;cd boot
+: 1719079387:0;ll
+: 1719079390:0;cd grub
+: 1719079391:0;ls
+: 1719079401:0;cd x86_64-efi
+: 1719079402:0;ls
+: 1719079535:0;cd /
+: 1719079553:0;find /boot -name grubx64.efi
+: 1719079680:0;reboot
+: 1719080513:0;sudo pacman -S os-prober
+: 1719080705:0;sudo nano /etc/default/grub
+: 1719080834:0;sudo os-prober
+: 1719080851:0;sudo grub-mkconfig -o /boot/grub/grub.cfg
+: 1719080879:0;reboot
+: 1719081147:0;grub-customizer
+: 1719081236:0;pkexec grub-customizer
+: 1719081252:0;export DISPLAY=:1
+: 1719081256:0;sudo grub-customizer
+: 1719081278:0;sudo pacman -S xorg-xhost
+: 1719081287:0;xhost +si:localuser:$(whoami)
+: 1719081294:0;sudo xhost +si:localuser:$(whoami)
+: 1719081302:0;sudo grub-customizer
+: 1719081405:0;sudo pacman -S gksu
+: 1719081428:0;sudo DISPLAY=$DISPLAY grub-customizer
+: 1719081451:0;pkexec grub-customizer
+: 1719081460:0;gksudo grub-customizer
+: 1719081897:0;sudo nano /etc/default/grub
+: 1719081933:0;sudo os-prober
+: 1719081978:0;sudo grub-mkconfig -o /boot/grub/grub.cfg
+: 1719082268:0;reboot
+: 1719084085:0;paru -S file-roller
+: 1719084267:0;cd /boot
+: 1719084268:0;ls
+: 1719084272:0;cd grub
+: 1719084273:0;ls
+: 1719084281:0;cd themes
+: 1719084282:0;ls
+: 1719084286:0;cd starfield
+: 1719084287:0;ls
+: 1719084432:0;..
+: 1719084433:0;ls
+: 1719084437:0;pwd
+: 1719084443:0;cd Downloads
+: 1719084444:0;ls
+: 1719084446:0;cd grub
+: 1719084447:0;ls
+: 1719084449:0;cd themes
+: 1719084450:0;ls
+: 1719084477:0;sudo cp -r kali /boot/grub/themes
+: 1719084625:0;ls
+: 1719084628:0;.
+: 1719084629:0;..
+: 1719084630:0;ll
+: 1719084640:0;nano grub.cfg
+: 1719084751:0;cd
+: 1719084759:0;sudo nano /etc/default/grub
+: 1719085509:0;cd github
+: 1719085813:0;git clone https://github.com/MrVivekRajan/Grub-Themes.git
+: 1719085823:0;cd Grub-Themes
+: 1719085830:0;ls
+: 1719085853:0;sudo cp -r SekiroShadow /boot/grub/themes
+: 1719085927:0;cd themes
+: 1719085928:0;ls
+: 1719085930:0;pwd
+: 1719086018:0;sudo grub-mkconfig -o /boot/grub/grub.cfg
+: 1719086032:0;reboot
+: 1719086376:0;sutdown now
+: 1719086381:0;shutdown now
+: 1719123871:0;cd .config
+: 1719123872:0;cd hypr
+: 1719123877:0;cd ..
+: 1719123880:0;cd hypr
+: 1719123893:0;nano hyprland.conf
+: 1719123901:0;..
+: 1719123906:0;cd waybar
+: 1719123909:0;nano config
+: 1719123924:0;ll
+: 1719123940:0;nano style
+: 1719123946:0;nano style.css
+: 1719123977:0;...
+: 1719123981:0;cd .config
+: 1719123982:0;ll
+: 1719123992:0;cd /etc
+: 1719123993:0;ll
+: 1719124268:0;cd
+: 1719124274:0;cd /boot/grub
+: 1719124275:0;ls
+: 1719124318:0;cd /etc/grub-customizer
+: 1719124319:0;ls
+: 1719124322:0;nano grub.cfg
+: 1719124348:0;..
+: 1719124353:0;cd default
+: 1719124354:0;ls
+: 1719124359:0;nano grub
+: 1719124364:0;sudo nano grub
+: 1719124388:0;reboot
+: 1719124847:0;cd /boot/grub
+: 1719124848:0;ll
+: 1719124852:0;cd themes
+: 1719124854:0;ll
+: 1719124858:0;cd starfield
+: 1719124858:0;ls
+: 1719124867:0;nano README
+: 1719124902:0;..
+: 1719124921:0;sudo cp -r starfield starfield-bak
+: 1719124971:0;cd starfield
+: 1719124974:0;nano theme.txt
+: 1719125151:0;cd /boot/grub
+: 1719125152:0;ls
+: 1719125154:0;cd themes
+: 1719125156:0;ls
+: 1719125159:0;cd kali
+: 1719125160:0;ls
+: 1719125200:0;cp grub-16x9.png /boot/grub/themes/starfield/slika1.png
+: 1719125203:0;sudo cp grub-16x9.png /boot/grub/themes/starfield/slika1.png
+: 1719125263:0;sudo nano theme.txt
+: 1719125321:0;sudo grub-mkconfig -o /boot/grub/grub.cfg
+: 1719125333:0;reboot
+: 1719125425:0;cd /etc/default
+: 1719125426:0;ls
+: 1719125428:0;cd gr
+: 1719125432:0;nano grub
+: 1719125442:0;sudo nano grub
+: 1719125455:0;reboot
+: 1719125513:0;sudo grub-mkconfig -o /boot/grub/grub.cfg
+: 1719125531:0;reboot
+: 1719125618:0;grub-file
+: 1719125629:0;grub-customizer
+: 1719125930:0;reboot
+: 1719126021:0;grub-customizer
+: 1719126296:0;reboot
+: 1719126774:0;grub-customizer
+: 1719127389:0;reboot
+: 1719127454:0;cd /etc/default
+: 1719127457:0;nano grub
+: 1719127504:0;videoinfo
+: 1719127523:0;grub-mkimage
+: 1719127629:0;sudo nano grub
+: 1719127830:0;cd /boot/grub
+: 1719127831:0;ls
+: 1719127834:0;cd themes
+: 1719127835:0;ls
+: 1719127840:0;cd SekiroShadow
+: 1719127841:0;ls
+: 1719127846:0;nano theme.txt
+: 1719127886:0;..
+: 1719127911:0;cd starfield
+: 1719127912:0;ll
+: 1719127917:0;nano theme.txt
+: 1719128001:0;sudo nano theme.txt
+: 1719128034:0;sudo grub-mkconfig -o /boot/grub/grub.cfg
+: 1719128064:0;reboot
+: 1719128187:0;cd /boot/grub
+: 1719128189:0;cd themes
+: 1719128190:0;ls
+: 1719128193:0;cd SekiroShadow
+: 1719128194:0;ls
+: 1719128200:0;..
+: 1719128202:0;cd kali
+: 1719128211:0;sudo cp grub-16x9.png /boot/grub/themes/starfield/slika1.png
+: 1719128217:0;..
+: 1719128221:0;cd SekiroShadow
+: 1719128222:0;ls
+: 1719128234:0;..
+: 1719128236:0;cd kali
+: 1719128264:0;sudo cp grub-16x9.png /boot/grub/themes/SekiroShadow/slika1.png
+: 1719128268:0;..
+: 1719128272:0;cd SekiroShadow
+: 1719128272:0;ls
+: 1719128281:0;sudo nano theme.txt
+: 1719128348:0;reboot
+: 1719129319:0;cd /boot/grub
+: 1719129322:0;cd themes
+: 1719129325:0;ll
+: 1719129329:0;cd SekiroShadow
+: 1719129332:0;nano theme.txt
+: 1719129341:0;udo nano theme.txt
+: 1719129344:0;sudo nano theme.txt
+: 1719129455:0;ll
+: 1719129467:0;pwd
+: 1719129488:0;cd /boot/grub/themes/SekiroShadow
+: 1719129489:0;ll
+: 1719129497:0;nano dersu_uzala_brush_54.pf2
+: 1719129506:0;nano hackb_18.pf2
+: 1719129518:0;nano select_c.png
+: 1719129614:0;sudo nano theme.txt
+: 1719129712:0;sudo grub-mkconfig -o /boot/grub/grub.cfg
+: 1719129734:0;reboot
+: 1719129809:0;cd /boot/grub/themes/SekiroShadow
+: 1719129811:0;ll
+: 1719129819:0;sudo nano theme.txt
+: 1719129844:0;sudo grub-mkconfig -o /boot/grub/grub.cfg
+: 1719129890:0;reboot
+: 1719130317:0;cd Pictures
+: 1719130318:0;ls
+: 1719130356:0;sudo cp select_b.png /boot/grub/themes/SekiroShadow/select_b.png
+: 1719130460:0;cd
+: 1719130474:0;cd /boot/grub/themes/SekiroShadow
+: 1719130490:0;sudo nano theme.txt
+: 1719130586:0;reboot
+: 1719130971:0;cd /boot/grub/themes/SekiroShadow
+: 1719130974:0;ll
+: 1719130987:0;sudo nano theme.txt
+: 1719131016:0;sudo grub-mkconfig -o /boot/grub/grub.cfg
+: 1719131052:0;reboot
+: 1719131111:0;cd /boot/grub/themes/SekiroShadow
+: 1719131113:0;sudo nano theme.txt
+: 1719131129:0;ll
+: 1719131147:0;sudo mv select_b.png select_b.png.bak
+: 1719131153:0;sudo grub-mkconfig -o /boot/grub/grub.cfg
+: 1719131174:0;reboot
+: 1719131303:0;cd /boot/grub/themes/SekiroShadow
+: 1719131318:0;mv select_b.png.bak select_b.png
+: 1719131321:0;sudo mv select_b.png.bak select_b.png
+: 1719131345:0;sudo mv select_c.png select_c.png.bak
+: 1719131352:0;sudo grub-mkconfig -o /boot/grub/grub.cfg
+: 1719131374:0;reboot
+: 1719131432:0;cd /boot/grub/themes/SekiroShadow
+: 1719131433:0;ll
+: 1719131460:0;sudo mv select_b.png select_c.png
+: 1719131474:0;sudo grub-mkconfig -o /boot/grub/grub.cfg
+: 1719131564:0;reboot
+: 1719131715:0;cd /boot/grub/themes/SekiroShadow
+: 1719131719:0;sudo nano theme.txt
+: 1719131738:0;reboot
+: 1719132304:0;sudo pacman -S lightdm lightdm-gtk-greeter
+: 1719132786:0;sudo systemctl enable lightdm.service
+: 1719132794:0;sudo systemctl enable lightdm
+: 1719133161:0;sudo pacman -Rns lightdm lightdm-gtk-greeter
+: 1719133455:0;cd /etc/sddm.conf.d
+: 1719133456:0;ls
+: 1719133462:0;nano theme.conf.user
+: 1719135128:0;cd /usr/share/sddm/themes
+: 1719135129:0;ll
+: 1719135140:0;cd simple-sddm-2
+: 1719135141:0;ll
+: 1719135148:0;cd Backgrounds
+: 1719135149:0;ll
+: 1719135180:0;cd /etc/sddm.conf.d
+: 1719135182:0;ll
+: 1719135186:0;nano theme.conf.user
+: 1719135229:0;sudo nano theme.conf.user
+: 1719135339:0;sudo systemctl restart sddm
+: 1719137336:0;paru -S nmap
+: 1719137370:0;nmap 193.219.106.220
+: 1719137381:0;nmap 193.219.106.220 -Pn
+: 1719137622:0;nmap -A 193.219.106.220 -Pn
+: 1719137646:0;nmap -A  -Tc 193.219.106.220 -Pn
+: 1719137659:0;nmap -A -T 193.219.106.220 -Pn
+: 1719137707:0;nmap -A -Ss 193.219.106.220 -Pn
+: 1719137716:0;nmap -A -sS 193.219.106.220 -Pn
+: 1719137719:0;sudo nmap -A -sS 193.219.106.220 -Pn
+: 1719138422:0;cd /usr/share/sddm/themes
+: 1719138424:0;ll
+: 1719138441:0;sudo cp -r simple-sddm-2 simple-sddm-2.bak
+: 1719138464:0;sudo cp -r simple-sddm-2 simple-sddm-3
+: 1719138483:0;sudo cp -r simple-sddm-2 ~/Documents
+: 1719138568:0;cd .config/fastfetch
+: 1719138569:0;ls
+: 1719139945:0;cd Documents
+: 1719139946:0;ls
+: 1719139951:0;cd simple-sddm-2
+: 1719139964:0;sudo chmod 777 Backgrounds
+: 1719139987:0;cd Backgrounds
+: 1719139988:0;ls
+: 1719139995:0;sudo chmod 777 mountain.png
+: 1719140666:0;ll
+: 1719140681:0;cd simple-sddm-2
+: 1719140682:0;ll
+: 1719140685:0;cd Backgrounds
+: 1719140686:0;ll
+: 1719140692:0;pwd
+: 1719140712:0;sudo cp mountain.png /usr/share/sddm/themes/simple-sddm-2/Backgrounds/mountain.png
+: 1719140720:0;reboot
+: 1719141236:0;cd /usr/share/sddm/themes
+: 1719141237:0;ls
+: 1719141242:0;cd simple-sddm-
+: 1719141245:0;cd simple-sddm-2
+: 1719141252:0;ls
+: 1719141268:0;sudo nano theme.conf
+: 1719142339:0;reboot
+: 1719142409:0;cd /usr/share/sddm/themes
+: 1719142416:0;cd simple-sddm-2
+: 1719142418:0;nano theme.conf.user
+: 1719142420:0;ll
+: 1719142425:0;nano theme.conf
+: 1719143419:0;reboot
+: 1719144595:0;nano theme.conf.user
+: 1719144599:0;cd /usr/share/sddm/themes
+: 1719144603:0;ll
+: 1719144607:0;cd simple-sddm-
+: 1719144608:0;cd simple-sddm-2
+: 1719144612:0;nano theme.conf
+: 1719145757:0;ll
+: 1719145765:0;sudo nano Main.qml
+: 1719146536:0;reboot
+: 1719146600:0;cd /usr/share/sddm/themes
+: 1719146604:0;cd simple-sddm-2
+: 1719146608:0;sudo nano Main.qml
+: 1719146791:0;reboot
+: 1719146859:0;cd /usr/share/sddm/themes
+: 1719146862:0;cd simple-sddm-2
+: 1719146864:0;sudo nano Main.qml
+: 1719146948:0;reboot
+: 1719147008:0;cd /usr/share/sddm/themes
+: 1719147010:0;cd simple-sddm-2
+: 1719147012:0;sudo nano Main.qml
+: 1719147030:0;reboot
+: 1719147189:0;cd /usr/share/sddm/themes
+: 1719147191:0;cd simple-sddm-2
+: 1719147193:0;sudo nano Main.qml
+: 1719147224:0;nano theme.conf
+: 1719147250:0;reboot
+: 1719147328:0;shutdown now
+: 1719235917:0;cd /usr/share/sddm/themes
+: 1719235920:0;cd simple-sddm-2
+: 1719235928:0;sudo nano Main.qml
+: 1719235955:0;reboot
+: 1719236038:0;cd /usr/share/sddm/themes
+: 1719236041:0;cd simple-sddm-2
+: 1719236043:0;sudo nano Main.qml
+: 1719236089:0;reboot
+: 1719236227:0;cd /usr/share/sddm/themes/simple-sddm-2
+: 1719236233:0;nano Main.qml
+: 1719236448:0;reboot
+: 1719236726:0;cd /usr/share/sddm/themes/simple-sddm-2
+: 1719236729:0;nano Main.qml
+: 1719236745:0;ll
+: 1719236751:0;cd Components
+: 1719236753:0;ll
+: 1719236760:0;nano Clock.qml
+: 1719236913:0;cd /usr/share/sddm/themes/simple-sddm-2
+: 1719236915:0;ll
+: 1719236931:0;cd Previews
+: 1719236933:0;ll
+: 1719236935:0;..
+: 1719236976:0;cd  Components
+: 1719236978:0;ll
+: 1719236995:0;..
+: 1719237001:0;nano Main.qml
+: 1719237318:0;..
+: 1719237319:0;ll
+: 1719237322:0;cd Assets
+: 1719237323:0;ll
+: 1719237329:0;..
+: 1719237335:0;nano metadata.desktop
+: 1719237404:0;..
+: 1719237406:0;ll
+: 1719237408:0;.
+: 1719237409:0;..
+: 1719237411:0;ll
+: 1719237414:0;cd simple-sddm-2
+: 1719237421:0;ll
+: 1719237428:0;cd themes
+: 1719237430:0;cd simple-sddm-2
+: 1719237482:0;ll
+: 1719237580:0;cd Components
+: 1719237582:0;ll
+: 1719237596:0;nano Clock.qml
+: 1719237632:0;paru -S cod
+: 1719237638:0;paru -S code
+: 1719237715:0;code
+: 1719237728:0;code test
+: 1719239269:0;reboot
+: 1719241108:0;sudo pacman -S archiso git
+: 1719241213:0;cd github
+: 1719241214:0;ll
+: 1719241250:0;git clone https://gitlab.archlinux.org/archiso.git
+: 1719242019:0;LC_ALL=C pacman -V | tail -n3 | base32 | head -1 ? *
+: 1719242029:0;LC_ALL=C pacman -V | tail -n3 | base32 | head -1 ? 
+: 1719242032:0;LC_ALL=C pacman -V | tail -n3 | base32 | head -1 ?
+: 1719242040:0;LC_ALL=C pacman -V | tail -n3 | base32 | head -1
+: 1719243908:0;cd
+: 1719243929:0;sudo rm -r github
+: 1719243969:0;mkdir iso
+: 1719243973:0;cd iso
+: 1719244309:0;mkdir Archy-V1
+: 1719244819:0;cp -r /usr/share/archiso/configs/releng Archy-V1
+: 1719244838:0;cd Archy-V1
+: 1719244839:0;ll
+: 1719244848:0;cd releng
+: 1719244849:0;ll
+: 1719244873:0;nano packages.x86_64
+: 1719245424:0;..
+: 1719245428:0;cd releng
+: 1719245431:0;ll
+: 1719245434:0;cd airootfs
+: 1719245435:0;ll
+: 1719245483:0;cd etc
+: 1719245485:0;ll
+: 1719245499:0;nano locale.conf
+: 1719245540:0;nano passwd
+: 1719246071:0;nano shadow
+: 1719246129:0;openssl passwd -6
+: 1719246272:0;nano gshadow
+: 1719246387:0;...
+: 1719246389:0;ll
+: 1719246399:0;nano profiledef.sh
+: 1719246562:0;cd etc
+: 1719246633:0;cd airootfs
+: 1719246633:0;ll
+: 1719246637:0;cd etc
+: 1719246638:0;ll
+: 1719246657:0;cp /etc/os-release
+: 1719246662:0;..
+: 1719246669:0;cp /etc/os-release /etc
+: 1719246676:0;sudo cp /etc/os-release /etc
+: 1719246872:0;cd etc
+: 1719246884:0;ll
+: 1719246913:0;sudo cp /etc/os-release os-release
+: 1719246914:0;ll
+: 1719246918:0;nano os-release
+: 1719247025:0;sudo nano os-release
+: 1719247138:0;cd /etc
+: 1719247146:0;cd skel
+: 1719247147:0;ll
+: 1719247504:0;sudo rm -r Arch-Hyprland
+: 1719247511:0;sudo rm -r 
+: 1719247515:0;sudo rm -r Desktop
+: 1719247524:0;sudo rm -r Documents
+: 1719247531:0;sudo rm -r Music
+: 1719247536:0;sudo rm -r Pictures
+: 1719247539:0;sudo rm -r Public
+: 1719247555:0;sudo rm -r Downloads
+: 1719247561:0;sudo rm -r wallpaper
+: 1719247918:0;sudo rm -r Videos
+: 1719247927:0;sudo rm -r Templates
+: 1719248142:0;mkdir skel
+: 1719248345:0;cd skel
+: 1719248346:0;ll
+: 1719248364:0;ls -la
+: 1719248370:0;cd .config
+: 1719248372:0;..
+: 1719248378:0;cd .local
+: 1719248379:0;ll
+: 1719248449:0;...
+: 1719248450:0;ll
+: 1719248473:0;mkdir sddm.conf.d
+: 1719248482:0;cd sddm.conf.d
+: 1719248532:0;cp /etc/sddm.conf.d/* ./*
+: 1719248536:0;cp /etc/sddm.conf.d/* .
+: 1719248608:0;ll
+: 1719248931:0;cd /etc/sddm.conf.d
+: 1719248932:0;ll
+: 1719248947:0;cd theme.conf.user
+: 1719248955:0;nano theme.conf.user
+: 1719249000:0;..
+: 1719249010:0;cd usr
+: 1719249011:0;ll
+: 1719249013:0;cd local
+: 1719249015:0;ll
+: 1719249017:0;cd share
+: 1719249018:0;ll
+: 1719249024:0;cd livecd-sound
+: 1719249024:0;ll
+: 1719249081:0;cd /usr/share
+: 1719249082:0;ll
+: 1719249118:0;pwd
+: 1719249120:0;..
+: 1719249128:0;pwd
+: 1719249134:0;...
+: 1719249135:0;ll
+: 1719249137:0;pwd
+: 1719249142:0;cd local
+: 1719249142:0;ll
+: 1719249147:0;cd share
+: 1719249148:0;ll
+: 1719249150:0;pwd
+: 1719249158:0;cp -r sddm /home/spacepirate/iso/Archy-V1/releng/airootfs/usr/local/share
+: 1719249260:0;...
+: 1719249262:0;ll
+: 1719249263:0;....
+: 1719249356:0;ll
+: 1719249426:0;sudo mkarchiso -v -w ~/iso/Archy-V1/output/ -o ~/iso/Archy-V1/output/ releng
+: 1719249683:0;cd releng
+: 1719249684:0;l
+: 1719249688:0;cd airootfs
+: 1719249693:0;cd etc/skel
+: 1719249694:0;ll
+: 1719249698:0;ls -la
+: 1719249790:0;..
+: 1719249795:0;ll
+: 1719249798:0;..
+: 1719249799:0;ll
+: 1719249805:0;..
+: 1719249806:0;ll
+: 1719249831:0;cp pacman.conf airootfs/etc
+: 1719249840:0;..
+: 1719249841:0;ll
+: 1719249851:0;sudo mkarchiso -v -w ~/iso/Archy-V1/output/ -o ~/iso/Archy-V1/output/ releng
+: 1719249888:0;cd iso
+: 1719249890:0;cd Archy-V1
+: 1719249908:0;ll
+: 1719249912:0;cd releng
+: 1719249924:0;cd airootfs/etc/skel
+: 1719249925:0;ll
+: 1719249928:0;ls -ls
+: 1719249959:0;ls -la
+: 1719249994:0;sudo mkarchiso -v -w ~/iso/Archy-V1/output/ -o ~/iso/Archy-V1/output/ releng
+: 1719250030:0;cd /home/spacepirate/iso/Archy-V1/output/x86_64/airootfs/etc/skel/
+: 1719250032:0;ll
+: 1719250038:0;ls -la
+: 1719250045:0;rm .zshrc
+: 1719250051:0;ll
+: 1719250053:0;ls -la
+: 1719250058:0;sudo rm .zshrc
+: 1719250076:0;sudo mkarchiso -v -w ~/iso/Archy-V1/output/ -o ~/iso/Archy-V1/output/ releng
+: 1719250081:0;.....
+: 1719250084:0;..
+: 1719250086:0;ll
+: 1719250089:0;sudo mkarchiso -v -w ~/iso/Archy-V1/output/ -o ~/iso/Archy-V1/output/ releng
+: 1719250568:0;sudo pacman -S virtualbox
+: 1719250726:0;sudo /sbin/vboxconfig
+: 1719250883:0;cd /sbin/vboxconfig
+: 1719250891:0;sudo cd /sbin/vboxconfig
+: 1719251060:0;reboot
+: 1719254236:0;paru -S aircrack-ng
+: 1719259294:0;nano archy.sh
+: 1719259347:0;pacman -Q
+: 1719259357:0;pacman -Q | grep "hypr"
+: 1719259373:0;xrandr
+: 1719261838:0;pacman -Qq > PKGlist.txt
+: 1719261843:0;nano PKGlist.txt
+: 1719261855:0;mkdir custom
+: 1719261858:0;cd custom
+: 1719261862:0;nano PKGlist.txt
+: 1719261867:0;pacman -Qq > PKGlist.txt
+: 1719261983:0;lll
+: 1719261984:0;ll
+: 1719261992:0;mkdir config
+: 1719261997:0;cd
+: 1719262025:0;cp .config/* ~/custom/config
+: 1719262040:0;cp -r .config/* ~/custom/config
+: 1719262048:0;cd custom/config
+: 1719262049:0;ll
+: 1719264085:0;..
+: 1719264093:0;mkdir etc
+: 1719264097:0;cd etc
+: 1719264134:0;sudo cp -r /etc/* .
+: 1719264145:0;..
+: 1719264169:0;chmod 777 etc/*
+: 1719264172:0;sudo chmod 777 etc/*
+: 1719264183:0;sudo chmod -r 777 etc/*
+: 1719264193:0;sudo chmod 777 -r etc/*
+: 1719264196:0;ll
+: 1719264200:0;cd etc
+: 1719264201:0;ll
+: 1719264213:0;sudo chmod 777 -r .*
+: 1719264216:0;sudo chmod 777 -r *
+: 1719264224:0;sudo chmod 777 os-release
+: 1719270683:0;cd
+: 1719270706:0;git clone https://github.com/ChrisTitusTech/ArchTitus.git
+: 1719270762:0;ll
+: 1719270768:0;cd ArchTitus
+: 1719378337:0;cd .config
+: 1719378340:0;cd hypr
+: 1719378341:0;nano
+: 1719378347:0;ll
+: 1719378351:0;cd UserConfigs
+: 1719378352:0;ll
+: 1719378377:0;nano UserKeybinds.conf
+: 1719378737:0;cd .config/hypr/UserConfigs
+: 1719378737:0;ll
+: 1719378741:0;..
+: 1719378746:0;cd UserScripts
+: 1719378747:0;ll
+: 1719378756:0;..
+: 1719378757:0;ll
+: 1719378766:0;cd configs
+: 1719378767:0;ll
+: 1719378845:0;..
+: 1719378855:0;nano UserKeybinds.conf
+: 1719378861:0;ll
+: 1719378872:0;nano UserKeybinds.conf
+: 1719378890:0;nano Laptops.conf
+: 1719378939:0;nano ENVariables.conf
+: 1719378980:0;nano WindowRules.conf
+: 1719379068:0;nano UserSettings.conf
+: 1719379608:0;..
+: 1719379614:0;cd configs
+: 1719379615:0;ll
+: 1719379618:0;nano Keybinds.conf 
+: 1719381630:0;sudo pacman -S nnn
+: 1719381655:0;nnn
+: 1719383287:0;nnn -de
+: 1719384766:0;nnn
+: 1719384770:0;nnn -de
+: 1719386013:0;nnn
+: 1719386081:0;sudo pacman -Syu
+: 1719386590:0;nnn -de
+: 1719386601:0;cd Downloads
+: 1719386603:0;nnn
+: 1719386610:0;ls
+: 1719386611:0;l
+: 1719386613:0;lll
+: 1719386615:0;ll
+: 1719387830:0;reboot
+: 1719392433:0;nnn
+: 1719392450:0;cd iso
+: 1719392768:0;mkdir hyperion-2406
+: 1719392772:0;cd hyperion-2406
+: 1719393456:0;..
+: 1719393466:0;mv hyperionOS-2406
+: 1719393478:0;mv hyperion-2406 hyperionOS-2406
+: 1719393487:0;cd hyperionOS-2406
+: 1719394450:0;..
+: 1719394478:0;sudo pacman -S archiso-git
+: 1719394488:0;paru -S archiso-git
+: 1719394641:0;cp -r /usr/share/archiso/configs/releng hyperionOS-2406
+: 1719394648:0;cd hyperionOS-2406/Äƒ±
+: 1719394653:0;cd hyperionOS-2406/
+: 1719394654:0;ll
+: 1719395033:0;cd releng
+: 1719395035:0;ll
+: 1719395056:0;cd airootfs
+: 1719395057:0;ll
+: 1719395062:0;cd etc
+: 1719395064:0;ll
+: 1719395081:0;nano passwd
+: 1719395270:0;nano shadow
+: 1719395557:0;openssl passwd -6
+: 1719396181:0;nano gshadow
+: 1719396251:0;...
+: 1719396253:0;ll
+: 1719396267:0;nano profiledef.sh
+: 1719397363:0;cd /etc/skel
+: 1719397364:0;ll
+: 1719397369:0;ls -la
+: 1719397389:0;nano .bashrc
+: 1719397484:0;ll
+: 1719397503:0;cp -r /etc/skel airootfs/etc
+: 1719397506:0;cd airootfs
+: 1719397509:0;cd etc
+: 1719397510:0;ll
+: 1719397512:0;cd skel
+: 1719397513:0;ll
+: 1719397516:0;ls -la
+: 1719397745:0;..
+: 1719397748:0;cd sddm.conf.d
+: 1719397749:0;ll
+: 1719397785:0;cd /usr/share/sddm
+: 1719397785:0;ll
+: 1719397792:0;cd scripts
+: 1719397793:0;ll
+: 1719397806:0;nano theme.conf.user 
+: 1719398230:0;..
+: 1719398233:0;ll
+: 1719398240:0;mkdir sddm.conf.d
+: 1719398294:0;...
+: 1719398362:0;sudo mkarchiso -v -w ~/iso/hyperionOS/output/ -o ~/iso/hyperionOS/output/ releng
+: 1719398377:0;..
+: 1719398407:0;sudo mkarchiso -v -w ~/iso/hyperionOS/output/ -o ~/iso/hyperionOS/output/ releng
+: 1719398418:0;cd
+: 1719398420:0;cd iso
+: 1719398420:0;ll
+: 1719398423:0;cd Archy-V1
+: 1719398439:0;sudo mkarchiso -v -w ~/iso/hyperionOS-2406/output/ -o ~/iso/hyperionOS-2406/output/ releng
+: 1719401055:0;reboot
+: 1719431980:0;cdis
+: 1719431982:0;cd iso
+: 1719431983:0;ll
+: 1719431986:0;cd dtos-iso-main
+: 1719432018:0;sudo mkarchiso -v -w ~/iso/dtos-iso-main/output/ -o ~/iso/dtos-iso-main/output/ releng
+: 1719432029:0;ll
+: 1719432033:0;cd dtos-qtile
+: 1719432040:0;ll
+: 1719432060:0;mv releng ..
+: 1719432061:0;ll
+: 1719432063:0;..
+: 1719432064:0;ll
+: 1719432068:0;rm dtos-qtile
+: 1719432074:0;rm -r dtos-qtile
+: 1719432080:0;rm README.org
+: 1719432081:0;ll
+: 1719432087:0;sudo mkarchiso -v -w ~/iso/dtos-iso-main/output/ -o ~/iso/dtos-iso-main/output/ releng
+: 1719432374:0;sudo pacman -S plasma-meta
+: 1719432538:0;reboot
+: 1719488262:0;nano .zshrc
+: 1719489304:0;waybar
+: 1719489770:0;sudo pacman -S code
+: 1719490118:0;cd .config/waybar
+: 1719490118:0;ls
+: 1719490124:0;nano config
+: 1719511918:0;cd .config/waybar
+: 1719511934:0;ls
+: 1719511938:0;nano config
+: 1719511950:0;waybar
+: 1719512763:0;sudo pacman -S thermald
+: 1719512773:0;thermals
+: 1719512776:0;thermald
+: 1719512783:0;sudo thermald
+: 1719512797:0;sudo systemctl enable thermald.service
+: 1719512803:0;sudo systemctl start thermald.service
+: 1719512920:0;waybar
+: 1719513464:0;nano ikone.txt
+: 1719513523:0;waybar
+: 1719513770:0;nano style.css
+: 1719513834:0;waybar
+: 1719513870:0;nano config
+: 1719513884:0;waybar
+: 1719513930:0;nano style.css
+: 1719514298:0;waybar
+: 1719515743:0;reboot
+: 1719516452:0;cd .config/hypr
+: 1719516454:0;ll
+: 1719516462:0;nano hypr
+: 1719516467:0;nano hyprpaper.conf
+: 1719516542:0;mkdir wallpaper
+: 1719516749:0;cd Downloads
+: 1719516754:0;mv 254296.png wallpaper1.png
+: 1719516791:0;cp wallpaper1.png ~/.config/hypr/wallpaper
+: 1719516804:0;nano hyprpaper.conf
+: 1719516855:0;nnn
+: 1719516905:0;nn -d -e -H -r
+: 1719516908:0;nnn -d -e -H -r
+: 1719516940:0;reboot
+: 1719518665:0;cd .config/hypr
+: 1719518676:0;nano hyprland.conf
+: 1719522056:0;sudo pacman -Syu
+: 1719523384:0;shutdown now
+: 1719551196:0;cd .config
+: 1719551198:0;cd w
+: 1719551201:0;cd waybar
+: 1719551202:0;ls
+: 1719551204:0;nano config
+: 1719551275:0;waybar
+: 1719551713:0;cd .config/waybar
+: 1719551714:0;nano style.css
+: 1719551755:0;waybar
+: 1719551946:0;reboot
+: 1719552145:0;cd .config
+: 1719552155:0;nnn -help
+: 1719552169:0;nano .zshrc
+: 1719552180:0;ll
+: 1719552181:0;ls
+: 1719552184:0;la
+: 1719552222:0;nano .bashrc
+: 1719552229:0;ll
+: 1719552230:0;la
+: 1719552247:0;nano .zprofile
+: 1719552322:0;nano .zshrc
+: 1719552472:0;cleanup
+: 1719552484:0;reboot
+: 1719552557:0;cleanup
+: 1719552567:0;nnn
+: 1719552586:0;cd .config
+: 1719552590:0;nano starship.toml
+: 1719552596:0;nano ikone.txt
+: 1719552923:0;reboot
+: 1719553003:0;hjk
+: 1719553022:0;cd .config
+: 1719553024:0;nano starship.toml
+: 1719553077:0;reboot
+: 1719553795:0;cd .config
+: 1719553796:0;nano s
+: 1719553801:0;nano starship.toml
+: 1719553963:0;nnn
+: 1719554015:0;hyprlock
+: 1719554152:0;cd hypr
+: 1719554153:0;ll
+: 1719554161:0;ls
+: 1719554167:0;sudo ll
+: 1719554173:0;sudo ls
+: 1719554175:0;ls
+: 1719554186:0;sudo pacman -S ls
+: 1719554200:0;paru -S ls
+: 1719554250:0;sudo pacman -S coreutils
+: 1719554252:0;ls
+: 1719554260:0;nnn
+: 1719554317:0;sudo pacman -Syu coreutils
+: 1719554347:0;ls
+: 1719554351:0;..
+: 1719554357:0;nano .zshrc
+: 1719554384:0;ls
+: 1719554421:0;reboot
+: 1719554561:0;cd .config
+: 1719554563:0;ll
+: 1719554572:0;ls
+: 1719554576:0;..
+: 1719554580:0;nano .zshrc
+: 1719554645:0;ll
+: 1719554664:0;sudo systemctl restart zsh
+: 1719554671:0;reboot
+: 1719554723:0;ll
+: 1719554734:0;nnn
+: 1719554764:0;cd .config
+: 1719554767:0;nano starship.toml
+: 1719554883:0;cd Documents
+: 1719554902:0;ll
+: 1719554907:0;cd configs
+: 1719554939:0;cd
+: 1719554942:0;cd /usr/share/sddm
+: 1719554943:0;ls
+: 1719554946:0;cd t
+: 1719554950:0;cd themes
+: 1719554951:0;ls
+: 1719554973:0;nano starship.toml
+: 1719555031:0;cd /etc/sddm.conf.d
+: 1719555032:0;ls
+: 1719555036:0;cd /etc/sddm.conf.d
+: 1719555041:0;cd /etc/sddm
+: 1719555047:0;nano /etc/sddm
+: 1719555054:0;cd /etc
+: 1719555055:0;ls
+: 1719555082:0;sudo systemctl enable sddm
+: 1719555111:0;sddm
+: 1719555117:0;ll
+: 1719555147:0;sudo pacman -S sddm
+: 1719555152:0;sudo systemctl enable sddm
+: 1719555154:0;ll
+: 1719555162:0;sddm
+: 1719555173:0;sudo sddm
+: 1719555195:0;..
+: 1719555196:0;ls
+: 1719555206:0;cd scripts
+: 1719555207:0;ll
+: 1719555214:0;cd w
+: 1719555219:0;nano wayland-session
+: 1719555247:0;..
+: 1719555273:0;nano /etc/sddm.conf.d
+: 1719555317:0;sudo pacman -S sddm-kcm
+: 1719555330:0;sddm-kcm
+: 1719556024:0;mkdir sddm.conf.d
+: 1719556027:0;sudo mkdir sddm.conf.d
+: 1719556105:0;cd sddm.conf.d
+: 1719556123:0;sudo nano config.json
+: 1719556194:0;sudo sddm
+: 1719556249:0;sudo systemctl enable sddm
+: 1719556254:0;sudo systemctl restart sddm
+: 1719556399:0;cd /etc/sddm.conf.d
+: 1719556411:0;ll
+: 1719556440:0;mv config.json config.conf
+: 1719556444:0;sudo mv config.json config.conf
+: 1719556534:0;sudo sddm
+: 1719556616:0;sddm-greeter
+: 1719556670:0;sddm-greeter --test-mode --theme /usr/share/sddm/themes/elarun
+: 1719556733:0;hyprlock
+: 1719557483:0;..
+: 1719557489:0;nano sddm.conf
+: 1719557524:0;sudo nano sddm.conf
+: 1719557554:0;sddm-greeter --test-mode
+: 1719557595:0;sddm-greeter --test-mode --theme /usr/share/sddm/themes/maya
+: 1719557675:0;sudo nano sddm.conf
+: 1719557700:0;reboot
+: 1719557952:0;nnn
+: 1719557998:0;sudo nnn
+: 1719558113:0;nano /etc/sddm.conf
+: 1719558134:0;sudo nano /etc/sddm.conf
+: 1719558146:0;reboot
+: 1719558311:0;nano .zshrc
+: 1719558321:0;nnn
+: 1719558576:0;cd /usr/share/sddm
+: 1719558577:0;ls
+: 1719558621:0;sudo mv -r monochrome themes
+: 1719558638:0;sudo mv monochrome themes
+: 1719558640:0;ll
+: 1719558643:0;cd themes
+: 1719558644:0;ll
+: 1719558646:0;reboot
+: 1719558790:0;nnn
+: 1719558999:0;cd Downloads
+: 1719559006:0;cd
+: 1719559009:0;cd .config
+: 1719559012:0;cd wallpaper
+: 1719559016:0;cp ozadje-runa
+: 1719559039:0;cp ozadje-runa3.png /usr/share/sddm/themes/monochrome
+: 1719559044:0;cd /usr/share/sddm
+: 1719559046:0;cd t
+: 1719559049:0;cd themes
+: 1719559050:0;ls
+: 1719559053:0;cd monochrome
+: 1719559054:0;ls
+: 1719559058:0;nano theme.conf
+: 1719559074:0;cp ozadje-runa3.png backgrounds
+: 1719559077:0;cd backgrounds
+: 1719559077:0;ls
+: 1719559085:0;..
+: 1719559089:0;nano theme.conf
+: 1719559132:0;sddm-greeter --test-mode --theme /usr/share/sddm/themes/monochrome
+: 1719559193:0;nano Main.qml
+: 1719559215:0;paru -S QtQuick.Controls
+: 1719559293:0;sudo pacman -S qt5-ct
+: 1719559313:0;sudo pacman -S qt5-ct-modules-qtquick-controls2
+: 1719559340:0;sudo pacman -Syu qt5-ct-modules-qtquick-controls2
+: 1719562440:0;nano .zshrc
+: 1719567149:0;cd git
+: 1719567156:0;git hub https://github.com/joao-vitor-sr/wofi-themes-collection.git
+: 1719567166:0;git clone https://github.com/joao-vitor-sr/wofi-themes-collection.git
+: 1719567213:0;cd wofi-themes-collection
+: 1719567214:0;ls
+: 1719567228:0;cd themes
+: 1719567231:0;ls
+: 1719567683:0;cd .config
+: 1719567684:0;ls
+: 1719567692:0;mkdir wofi
+: 1719567696:0;pwd
+: 1719567702:0;cd wofi
+: 1719567704:0;pwd
+: 1719567726:0;cp gruvbox.css /home/spacepirate/.config/wofi/style.css
+: 1719568489:0;mkdir hyperionOS
+: 1719568493:0;cd hyperionOS
+: 1719568500:0;pacman -Qq > PKGlist.txt
+: 1719568521:0;sudo cp /etc .
+: 1719568528:0;sudo cp - /etc .
+: 1719568531:0;sudo cp -r /etc .
+: 1719568542:0;sudo cp -r /usr .
+: 1719568600:0;ll
+: 1719568618:0;cd ~/.config .
+: 1719568627:0;cp -r ~/.config .
+: 1719568634:0;mv .config config
+: 1719568636:0;ll
+: 1719568697:0;chown spacepirate:spacepirate etc
+: 1719568700:0;sudo chown spacepirate:spacepirate etc
+: 1719568705:0;sudo chown spacepirate:spacepirate usr
+: 1719568706:0;ll
+: 1719568900:0;chmod 777 etc
+: 1719568906:0;chmod 777 usr
+: 1719568912:0;chmod 777 PKGlist.txt
+: 1719568916:0;ll
+: 1719568924:0;chmod 777 config
+: 1719568925:0;ll

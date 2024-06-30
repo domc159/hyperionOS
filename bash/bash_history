@@ -1,0 +1,261 @@
+cd .config/
+cd hypr/
+ls
+nano hyprland.conf 
+cd
+sudo pacman -S nemo
+sudo pacman -S nemo
+loadkeys slovene
+cd .config/
+cd hypr/
+ll
+ls
+nano hz
+nano hyprland.conf 
+nmcli connect device wifi I\ see\ you password Weareheretodrinkyourbeer!
+nmcli connect wifi I\ see\ you password Weareheretodrinkyourbeer!
+nmcli device connect wifi I\ see\ you password Weareheretodrinkyourbeer!
+nmcli device connect I\ see\ you password Weareheretodrinkyourbeer!
+nmcli device wifi connect I\ see\ you password Weareheretodrinkyourbeer!
+sudo pacman -S nemo
+wofi
+wofi --show drun
+1C
+sudo pacman -S paru-git
+sudo pacman -S --needed base-devel
+mkdir
+mkdir git
+cd git/
+sudo pacman -S git
+git clone https://aur.archlinux.org/paru.git
+cd paru/
+makepkg -si
+cd
+cd .config/
+cd hypr/
+ls
+cd UserConfigs/
+ls
+nano UserKeybinds.conf 
+paru -S hyprcursor
+hypridle
+hyprland
+hyprlang
+hyprlock
+hyprpaper
+hyprutils
+xdg-desktop-portal-hyprland
+paru -S hyprcursor hypridle hyprlang hyprlock hyprpaper hyprutils xdg-desktop-portal-hyprland
+paru -S hyprbar
+hyprpm
+hyprpm add https://github.com/hyprwm/hyprland-plugins
+hyprpm update
+sudo hyprpm update
+paru -S waybar
+sudo waybar
+paru -S waybar
+sudo waybar
+waybar
+paru -S lm_sensors
+waybar
+paru -S power-profiles-daemon
+paru -S powerstat
+paru -S starship
+paru -S fastfetch
+fastfetch
+paru -S upower
+paru -S wl-clipboard wlogout wlroots
+nano p
+nano PKGlist.txt 
+cat PKGlist.txt | grep "hypr"
+hyprbar
+waybar
+waybar
+cat PKGlist.txt
+reboot
+paru -S firefox
+cd .config/hypr/UserConfigs/
+nano UserSettings.conf 
+cd ..
+nano hypr
+ls
+nano hyprland.conf 
+cd UserConfigs/
+nano UserSettings.conf 
+cd
+cd .config/waybar/
+ls
+nano config
+cd config
+ls
+cd configs
+ls
+cd \[TOP\]\ Default\ Laptop_V3
+nano \[TOP\]\ Default\ Laptop_V3
+nano \[TOP]\ Default\ Laptop_V3
+nano [TOP]\ Default\ Laptop_V3
+cd \[
+ls
+cd '[TOP] Default Laptop_v2'
+nano '[TOP] Default Laptop_v2'
+cp '[TOP] Default Laptop_v2' ..
+cd ..
+ls
+rm config
+mv \[TOP\]\ Default\ Laptop_v2 config
+nano style.css 
+waybr
+waybar
+ls
+nano config
+nano style
+nano style.css 
+rm style.css 
+cd style/
+ls
+cp '[Wallust] Simple.css' ..
+..
+cd ..
+mv '[Wallust] Simple.css' style.css
+ll
+ls
+nano style
+nano style.css
+paru -S gtk-update-icon-cache
+paru -S hicolor-icon-theme
+paru -S wallust
+waybar
+waybar
+paru -S fileroller
+paru -S nemo-fileroller
+sudo cp ~/Downloads/drive-download-20240627T004749Z-001/* ~/.config/waybar/
+sudo cp -r ~/Downloads/drive-download-20240627T004749Z-001/* ~/.config/waybar/
+cd Downloads/
+cd drive-download-20240627T004749Z-001
+ls
+nano config.save 
+waybar
+waybar
+waybar
+waybar
+reboot
+cd git/
+git clone https://github.com/sameemul-haque/dotfiles.git
+cd dotfiles/
+ls
+cd ..
+ls
+cd ..
+cd git/
+ls -la
+cd
+cd git/
+ls
+cd dotfiles/
+ls -la
+cd .config/
+ls
+cp waybar/ ~/.config/
+cp -r waybar/ ~/.config/
+paru -S noto-fonts-emoji
+reboot
+cd .config/waybar/
+ll
+ls
+nano style.css
+nano config
+cd modules
+cd modules
+ls
+cd configs
+ls
+cd ..
+cd modules
+ls
+nano modules
+rm style.css
+ls
+nmcli device wifi connect InnboxU92 password stpumaribor
+xdg-icon-resource
+xdg-icon-resource install
+ls -la
+mkdir .local
+cd .local/
+cd share/
+ls -la
+mkdir icons
+xdg-icon-resource
+xdg-icon-resource install
+xdg-icon-resource install --size 128
+cd
+cd .config/waybar/
+cd ..
+rm -r waybar/
+waybar
+cd .local/share/icons/
+ll
+ls
+ls -la
+starship
+cd
+paru -S nnn
+nnn
+nnn
+paru -S  wofi-emoji 
+paru -S  ttf-noto-emoji-monochrome 
+reboot
+nnn
+nnn
+nnn
+man nnn
+paru -S man
+man nnn
+nnn -c
+paru -S fontforge
+fontforge noto-fonts-emoji/NotoColorEmoji.ttf
+cd .config/
+cd k
+cd kitty/
+ls
+nano kitty.conf 
+cd
+nano .bashrc 
+waybar
+waybar
+waybar
+waybar
+waybar
+waybar
+waybar
+waybar
+waybar
+waybar
+waybar
+waybar
+waybar
+waybar
+waybar
+waybar
+waybar
+waybar
+waybar
+shutdown now
+paru -S wofimoji
+wofimoji
+fontforge
+cd git/
+git clone https://github.com/sebastiencs/icons-in-terminal.git
+cd icons-in-terminal/
+nnn
+./install.sh
+cd git/
+cd icons-in-terminal/
+./print_icons.sh 
+
+./print_icons.sh --fileicons
+./print_icons.sh 
+./print_icons.sh > ikone.txt 
+cp ikone.txt ~/
+cd .config/fastfetch/
+ls
+nano config.jsonc 
