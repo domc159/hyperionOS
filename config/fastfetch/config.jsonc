@@ -1,0 +1,139 @@
+{
+  "logo": {
+           "type": "kitty-direct",
+           "source": "~/.config/kitty/logo13.png",
+           "width": 25,
+           "height": 22
+     },
+    "display": {
+        "separator": " "
+    },
+    "modules": [
+        {
+            "type": "host",
+            "key": "╭─ ",
+            "keyColor": "38;5;166"
+        },
+        {
+            "type": "cpu",
+            "key": "├─ ",
+            "keyColor": "38;5;166"
+        },
+        {
+            "type": "gpu",
+            "key": "├─ ",
+            "keyColor": "38;5;166"
+        },
+        {
+            "type": "disk",
+            "key": "├─ ",
+            "keyColor": "38;5;166"
+        },
+        {
+            "type": "memory",
+            "key": "├─ ",
+            "keyColor": "38;5;166"
+        },
+        {
+            "type": "swap",
+            "key": "├─ ",
+            "keyColor": "38;5;166"
+        },
+        {
+            "type": "display",
+            "key": "├─ ",
+            "keyColor": "38;5;166"
+        },
+        {
+            "type": "brightness",
+            "key": "├─ ",
+            "keyColor": "38;5;166"
+        },
+        {
+            "type": "battery",
+            "key": "├─  ",
+            "keyColor": "38;5;166"
+        },
+        {
+            "type": "poweradapter",
+            "key": "├─",
+            "keyColor": "38;5;166"
+        },
+        {
+            "type": "gamepad",
+            "key": "├─ ",
+            "keyColor": "38;5;166"
+        },
+        {
+            "type": "bluetooth",
+            "key": "├─",
+            "keyColor": "38;5;166"
+        },
+        {
+            "type": "sound",
+            "key": "╰─ ",
+            "keyColor": "38;5;166"
+        },
+//        "break",
+
+        {
+            "type": "shell",
+            "key": "╭─ ",
+            "keyColor": "38;5;179"
+        },
+        {
+            "type": "terminal",
+            "key": "├─ ",
+            "keyColor": "38;5;179"
+        },
+        {
+            "type": "terminalfont",
+            "key": "├─ ",
+            "keyColor": "38;5;179"
+        },
+        {
+            "type": "lm",
+            "key": "├─ ",
+            "keyColor": "38;5;179"
+        },
+        {
+            "type": "de",
+            "key": "├─ ",
+            "keyColor": "38;5;179"
+        },
+        {
+            "type": "wm",
+            "key": "╰─ ",
+            "keyColor": "38;5;179"
+        },
+        
+//        "break",
+        {
+            "type": "title",
+            "key": "╭─ ",
+            "format": "{1}@{2}",
+            "keyColor": "38;5;187"
+        },
+        {
+            "type": "os",
+            "key": "├─  ", // Just get your distro's logo off nerdfonts.com
+            "keyColor": "38;5;187"
+        },
+        {
+            "type": "kernel",
+            "key": "├─ ",
+            "format": "{1} {2}",
+            "keyColor": "38;5;187"
+        },
+        {
+            "type": "packages",
+            "key": "├─ ",
+            "keyColor": "38;5;187"
+        },
+       {
+            "type": "uptime",
+            "key": "╰─ ",
+            "keyColor": "38;5;187"
+        },
+    ]
+}
